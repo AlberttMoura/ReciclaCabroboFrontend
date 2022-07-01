@@ -1,9 +1,14 @@
 import styles from './header.module.scss'
+import shapes from '../../img/shapes.png'
 
 export function Header() {
 	return (
 		<header className={styles.header}>
-			<h1>Recicla Cabrobo</h1>
+			
+				<img src={shapes}alt="Shapes" />
+			
 		</header>
 	)
 }
+
+
