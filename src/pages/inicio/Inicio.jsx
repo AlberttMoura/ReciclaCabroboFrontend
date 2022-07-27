@@ -3,10 +3,17 @@ import { Link } from 'react-router-dom'
 import recicla from '../../img/recicla.png'
 import tela from '../../img/tela_inicial.png'
 import button from '../../img/button.png'
+import shapes from '../../img/shapes.png'
+
+
 
 export function Inicio() {
 	return (
 		<div >
+			
+		<div className={styles.shapes}>
+          <img src={shapes} alt="Shapes" />
+        </div>
 
 		<div  className={styles.inicio}>
 		
@@ -35,7 +42,7 @@ export function Inicio() {
 		
 		
 		<nav className={styles.button}>
-		 <a href=''>
+		 <a href="DicasSeparacao">
 		 < img src={button} alt="Botão"  />
 		 </a>
 		 
